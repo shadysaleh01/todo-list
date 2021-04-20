@@ -22,7 +22,7 @@ h1 {
     padding: 8px;
     border: none;
     border-radius: 5px;
-
+    width: 55%;
 }
 
 #addBtn {
@@ -34,4 +34,39 @@ h1 {
     border: none;
     border-radius: 10px;
     cursor: pointer;
+}
+
+#todoList ul{
+    max-width: 72%;
+    color: yellowgreen;
+    font-size: 25px;
+    margin:30px auto;
+    text-align: left;
+    list-style: none;
+    padding-left: 0;
+}
+
+#todoList li {
+    padding: 4px;
+}
+
+.remove {
+    float: right;
+    font-size: 16px;
+    padding: 5px 10px;
+    border-radius: 8px;
+    border: none;
+    color:#fff;
+    background-color: rgb(176, 28, 28);
+}
+
+.clearAll {
+    font-size: 16px;
+    padding: 8px 10px;
+    border: none;
+    border-radius: 8px;
+    color: blue;
+    cursor: pointer;
+    margin: 0 auto;
+    display: block;
 }
